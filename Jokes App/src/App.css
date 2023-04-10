@@ -1,0 +1,54 @@
+.innerBox {
+  position: absolute;
+  left: 30%;
+  color: ghostwhite;
+  width: 40vw;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px black;
+  padding: 5%;
+  text-align: center;
+}
+
+.innerBox input {
+  padding-left: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: block;
+  margin-left: 25%;
+  border-radius: 10px;
+  border: 0;
+  width: 20vw;
+  height: 5vh;
+}
+
+.innerBox button {
+  width: 10vw;
+  height: 5vh;
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+  border: 0;
+  font-size: 20px;
+}
+
+.innerBox button:hover {
+  cursor: pointer;
+  background-color: rgb(8, 165, 8);
+}
+
+#book {
+  background-color: red;
+}
+
+.space {
+  margin: 10%;
+  padding: 2%;
+  font-size: 24px;
+}
+
+.ratings button {
+  width: 5vw;
+  margin: 5px;
+}
